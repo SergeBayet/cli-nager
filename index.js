@@ -26,7 +26,7 @@ axios.get('https://date.nager.at/api/v2/publicholidays/' + date + '/' + codeCoun
 		console.log('An error occured. Sorry! Maybe the country is not available on date.nager API!');
 	})
 	.finally(() => {
-		console.log('\n\rThanks to use holydates!')
+		console.log('\n\rThanks for using holydates!')
 	});
 
 prettyPrint = (data) => {
