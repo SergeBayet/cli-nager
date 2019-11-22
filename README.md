@@ -2,6 +2,15 @@
 
 An online tool written in node.js to list the holidays in a country at a certain year.
 
+## Installation
+
+```npm install @sbayet/holydates```
+```[sudo] npm link```
+
+## Execution
+
+```npx @sbayet/holydates [country] [year]```
+
 ## Usage
 
 ```holydates [country] [year]```
